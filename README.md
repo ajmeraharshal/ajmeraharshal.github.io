@@ -53,6 +53,24 @@
       font-size: 1rem;
     }
 
+    ul {
+      max-width: 700px;
+      margin: 0.5rem auto;
+      text-align: left;
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "• ";
+      color: #6366f1;
+      font-weight: bold;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
     .anime-container {
       width: 200px;
       height: 200px;
@@ -136,13 +154,32 @@
       I’m passionate about exploring how AI can enhance investment decisions, financial analysis, and audit efficiency.
     </p>
 
-    <h2>Trainings</h2>
     <p>
-      I have been actively engaged in providing training sessions to the audit department on new developments around the finance world, audit and engaging in discussions on monthly basis.
+      I have been actively engaged in providing training sessions to the audit department on new developments around the finance world, audit and engaging in discussions on a monthly basis.
     </p>
 
+    <h2>Skills</h2>
+    <ul>
+      <li>Internal Audit and Risk Management</li>
+      <li>Data Analytics and Dashboard Development</li>
+      <li>Process Improvement and Automation</li>
+      <li>Financial Analysis and Reporting</li>
+      <li>Proficiency in ACL and MS Excel</li>
+      <li>AI Applications in Finance and Auditing</li>
+    </ul>
+
+    <h2>Achievements</h2>
+    <ul>
+      <li>Developed interactive audit dashboards improving efficiency of reviews.</li>
+      <li>Led team for creating automated exception reports using ACL tool.</li>
+      <li>Recognized for initiative in knowledge-sharing and internal training sessions.</li>
+      <li>Contributed to enhancing audit processes through data-driven insights.</li>
+    </ul>
+
     <h2>Beyond Work</h2>
-    <p>Outside of work, I’m passionate about exploring new places, staying active, enjoying great entertainment, and keeping up with the world of finance.</p>
+    <p>
+      Outside of work, I’m passionate about exploring new places, staying active, enjoying great entertainment, and keeping up with the world of finance.
+    </p>
     <div class="interest-grid">
       <div class="interest-btn">🎒 Travelling</div>
       <div class="interest-btn">⚽ Sports</div>
@@ -156,7 +193,7 @@
     <a href="Harshal_Ajmera_Resume.pdf" download class="btn">📄 Download Resume</a>
   </div>
 
-  <footer>© 2025 Harshal Ajmera | Built with ❤️ using HTML & CSS</footer>
+  <footer>© 2025 Harshal Ajmera </footer>
 
   <script>
     function toggleTheme() {
