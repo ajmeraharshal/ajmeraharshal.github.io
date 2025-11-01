@@ -13,6 +13,6 @@
   <h1>CA Harshal Ajmera</h1>
   <p>Chartered Accountant | Internal Audit | BPCL</p>
   <p>📧ajmeraharshal3599@gmail.com</p>
-  <p>💼 <a href="(https://www.linkedin.com/in/harshal-ajmera-0b2b95192)">LinkedIn</a></p>
+  <p>💼 <a href="[https://www.linkedin.com/in/harshal-ajmera-0b2b95192]">LinkedIn</a></p>
 </body>
 </html>
