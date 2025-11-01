@@ -289,10 +289,6 @@
           efficiency and risk management across financial processes.
         </p>
 
-         <p>
-          I have provided training to all the new joinees in the department on the audit dashboards and the audit command language.
-        </p>
-
         <div class="contact-links fade-up delay-3" aria-hidden>
           <a class="tel" href="tel:+919975126277">📞 +91 9975126277</a>
           <a href="mailto:ajmeraharshal3599@gmail.com">✉️ Email</a>
