@@ -47,7 +47,7 @@
     }
 
     .theme-toggle:hover {
-      opacity: 0.8;
+      opacity: 0.85;
     }
 
     .container {
@@ -102,6 +102,22 @@
       color: #ff9800;
     }
 
+    .resume-btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .resume-btn:hover {
+      background: #ff9800;
+    }
+
     footer {
       text-align: center;
       margin-top: 3rem;
@@ -123,7 +139,7 @@
 
     <!-- Anime Animation -->
     <div class="anime">
-      <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jtbfg2nb.json"  background="transparent"  speed="1"  loop autoplay></lottie-player>
+      <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_jtbfg2nb.json" background="transparent" speed="1" loop autoplay></lottie-player>
     </div>
 
     <p>
@@ -132,8 +148,8 @@
     </p>
 
     <p>
-      I have a deep interest in exploring how Artificial Intelligence can transform the fields of finance, investment, and audit. My goal is to integrate AI-driven tools and analytical frameworks into financial processes to improve transparency,
-      efficiency, and strategic decision-making. Through continuous learning and experimentation, I aim to bridge the gap between finance professionals and emerging technologies.
+      I am deeply passionate about integrating technology with finance to drive smarter business insights. My interest lies in using data analytics and automation to improve transparency, efficiency, and risk management across financial processes.
+      I continuously explore new ways to combine analytical thinking with innovation for better decision-making.
     </p>
 
     <div class="contact">
@@ -141,6 +157,9 @@
       <a href="mailto:ajmeraharshal3599@gmail.com">✉️ ajmeraharshal3599@gmail.com</a>
       <a href="https://www.linkedin.com/in/harshal-ajmera-0b2b95192" target="_blank">🔗 LinkedIn</a>
     </div>
+
+    <!-- Resume Download Button -->
+    <a class="resume-btn" href="Harshal_Ajmera_Resume.pdf" download>📄 Download Resume</a>
   </div>
 
   <footer>
