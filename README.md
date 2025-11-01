@@ -136,6 +136,11 @@
       I’m passionate about exploring how AI can enhance investment decisions, financial analysis, and audit efficiency.
     </p>
 
+    <h2>Trainings</h2>
+    <p>
+      I have been actively engaged in providing training sessions to the audit department on new developments around the finance world, audit and engaging in discussions on monthly basis.
+    </p>
+
     <h2>Beyond Work</h2>
     <p>Outside of work, I’m passionate about exploring new places, staying active, enjoying great entertainment, and keeping up with the world of finance.</p>
     <div class="interest-grid">
