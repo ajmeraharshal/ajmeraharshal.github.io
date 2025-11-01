@@ -154,7 +154,7 @@
 
     <p>
       I have provided training to all the new joinees in the department on the audit dashboards and the audit command language.
-    </p>
+      </p>
     
     <div class="contact">
       <a href="tel:+919975126277">📞 +91 9975126277</a>
@@ -163,7 +163,7 @@
     </div>
 
     <!-- Resume Download Button -->
-    <a href="Resume_Harshal Ajmera.pdf" download class="download-btn">Download Resume</a>
+    <a class="resume-btn" href="Harshal_Ajmera_Resume.pdf" download>📄 Download Resume</a>
   </div>
 
   <footer>
