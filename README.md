@@ -15,17 +15,17 @@
     }
 
     :root {
-      --bg: #f9fafb;
-      --text: #111827;
-      --card-bg: #ffffff;
-      --glow: rgba(0, 0, 0, 0.1);
-    }
-
-    [data-theme="dark"] {
       --bg: #111827;
       --text: #f9fafb;
       --card-bg: #1f2937;
       --glow: rgba(255, 255, 255, 0.1);
+    }
+
+    [data-theme="light"] {
+      --bg: #f9fafb;
+      --text: #111827;
+      --card-bg: #ffffff;
+      --glow: rgba(0, 0, 0, 0.1);
     }
 
     .container {
@@ -54,12 +54,12 @@
     }
 
     .anime-container {
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
       margin: 1.5rem auto;
-      background: url('https://cdn.dribbble.com/users/25514/screenshots/16073968/media/b2b06e217dfda3e21b13a0e2e7ad4c32.gif') center/cover no-repeat;
+      background: url('https://cdn.pixabay.com/photo/2023/01/23/14/56/anime-boy-7736998_1280.png') center/cover no-repeat;
       border-radius: 50%;
-      box-shadow: 0 0 20px var(--glow);
+      box-shadow: 0 0 25px var(--glow);
     }
 
     .btn {
@@ -117,12 +117,12 @@
     footer {
       margin-top: 3rem;
       font-size: 0.9rem;
-      color: #6b7280;
+      color: #9ca3af;
     }
   </style>
 </head>
-<body>
-  <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+<body data-theme="dark">
+  <button class="theme-toggle" onclick="toggleTheme()">☀️</button>
 
   <div class="container">
     <div class="anime-container"></div>
@@ -155,9 +155,9 @@
 
   <script>
     function toggleTheme() {
-      const currentTheme = document.documentElement.getAttribute("data-theme");
-      const newTheme = currentTheme === "dark" ? "" : "dark";
-      document.documentElement.setAttribute("data-theme", newTheme);
+      const theme = document.body.getAttribute("data-theme");
+      const newTheme = theme === "dark" ? "light" : "dark";
+      document.body.setAttribute("data-theme", newTheme);
       document.querySelector(".theme-toggle").textContent = newTheme === "dark" ? "☀️" : "🌙";
     }
   </script>
