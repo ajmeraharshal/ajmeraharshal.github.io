@@ -163,7 +163,7 @@
     </div>
 
     <!-- Resume Download Button -->
-    <a class="resume-btn" href="Harshal_Ajmera_Resume.pdf" download>📄 Download Resume</a>
+    <a class="resume-btn" href="Resume_Harshal Ajmera.pdf" download>📄 Download Resume</a>
   </div>
 
   <footer>
